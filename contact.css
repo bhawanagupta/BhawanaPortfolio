@@ -1,0 +1,77 @@
+body{
+    display: inline-flexbox;
+    background: url(contact.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-section{
+    margin: 100px auto;
+    padding:45px;
+    background-color:transparent;
+    border-radius: 20px;
+   width: 450px;
+  text-align: center;
+  box-shadow: 0 10px 20px -10px rgba(255, 255, 255, 0.75);
+}
+
+.cotact-section h1{
+    text-align: center;
+font-family: tahoma;
+color: black;
+font-size: 50px;
+margin-bottom: 50px;
+font-weight: bold;
+}
+
+.contact-form{
+     max-width: 600px;
+    margin-left: 350px; 
+    padding: 0 10px;
+    overflow: hidden;
+   
+}
+
+.contact-text{
+    outline: none;
+    border-radius: 20px;
+    position: relative;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border:none;
+    padding:10px;
+    background:transparent;
+    padding:10px 20px;
+    transition:0.5s;
+    color:black;
+    font-weight:500;
+}
+.contact-text:focus{
+    box-shadow:0 0 10px  whitesmoke;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+textarea.contact-text{
+resize:none;
+height:90px;
+}
+
+.contact-btn{
+    margin-bottom: 30px;
+    float: right;
+    border: 0;
+    background: white;
+   color: #111111;
+   padding: 10px 30px;
+   border-radius:20px;
+   cursor: pointer;
+   transition: o.5s;
+   outline: none;
+}
+.contact-btn:hover{
+    background:#89c3eb;
+    border-bottom: 2px solid black;
+    
+}
