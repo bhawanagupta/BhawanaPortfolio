@@ -170,15 +170,18 @@ nav ul ul ul li{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  text-align: center;
+  text-align: left;
 }
 header{
-  font-size: 35px;
-  font-weight: 400;
-  padding-top: 80px;
-  
+  font-size: 23px;
+  font-weight: 300;
+  padding-top: 120px;
+  padding-right: 150px;
+  color:black;
 }
 p{
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
+  color:black;
+  padding-right: 150px;
 }
