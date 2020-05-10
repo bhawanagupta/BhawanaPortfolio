@@ -7,7 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-  background-image: url(b.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(b.jpg);
   background-size: cover;
   background-repeat: no-repeat repeat-y;
   
@@ -166,17 +166,17 @@ nav ul ul ul li{
 }
 .content{
   z-index: -1;
-  position: absolute;
+  position: absolute;;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  text-align: left;
+  text-align: center;
 }
 header{
   font-size: 23px;
-  font-weight: 300;
-  padding-top: 120px;
-  padding-right: 150px;
+  font-weight: 200;
+  padding-top: 200px;
+  padding-right: 130px;
   color:black;
 }
 p{

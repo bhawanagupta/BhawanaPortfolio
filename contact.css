@@ -1,6 +1,6 @@
 body{
     display: inline-flexbox;
-    background: url(contact.jpg);
+    background-image:linear-gradient(rgba(223, 106, 184, 0.6),rgba(23, 122, 235, 0.6)), url(contact.jpg);
     background-repeat: no-repeat ;
     background-size: cover;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,7 +12,7 @@ body{
     border-radius: 20px;
    width: 450px;
   text-align: center;
-  box-shadow: 0 10px 20px -10px rgba(255, 255, 255, 0.75);
+  box-shadow: 0 10px 20px -10px rgba(5, 5, 5, 0.75);
 }
 
 .cotact-section h1{
@@ -42,7 +42,7 @@ font-weight: bold;
     margin: 16px 0;
     border:none;
     padding:10px;
-    background:transparent;
+    background:white;
     padding:10px 20px;
     transition:0.5s;
     color:black;
@@ -71,7 +71,5 @@ height:90px;
    outline: none;
 }
 .contact-btn:hover{
-    background:#89c3eb;
     border-bottom: 2px solid black;
-    
 }

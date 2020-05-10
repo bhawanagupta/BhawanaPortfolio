@@ -1,8 +1,7 @@
 body{
     background-image: url(p.jpg);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat repeat-x;
     background-size: cover;
-    height: 100%;
 }
 .container{
     position: absolute;
